@@ -1,0 +1,9 @@
+
+<h2>{{titulo}}</h2>
+<ul>
+  <li *ngFor="let lista of detalle ">
+    {{lista.cantidad}}
+    - <strong>{{lista.id_factura}}</strong> -- <strong>{{lista.id_producto}}</strong>
+    --- <strong>{{lista.numero_detalle}}</strong> ---- <strong>{{lista.precio}}</strong>
+
+</ul>
